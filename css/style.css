@@ -143,4 +143,8 @@ header img{
     .m-0{
         background-color: #311e25;
     }
+    .navbar{
+        width: 1336px;
+        margin: auto;
+    }
 }
