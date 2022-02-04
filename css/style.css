@@ -1,0 +1,146 @@
+.max {
+    background: url(../images/1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu .nav-item .nav-link {
+    color: orange;
+}
+
+.hover,.hover1 {
+    background: transparent;
+    border: 1px solid orange;
+    color: orange;
+    border-radius: 0;
+    padding: 10px 40px;
+    font-weight: 500;
+}
+
+.hover:hover , .hover1:hover{
+    background: rgb(233, 197, 130);
+    color: white;
+    border: 1px solid rgb(233, 197, 130);
+    transition:all 1s ease;
+}
+
+.navbar {
+    background: #311e25;
+}
+
+.select {
+    background: white;
+    color: black;
+    font-weight: 500;
+    padding: 10px 30px;
+    display: none;
+    position: absolute;
+}
+
+.pages:hover .select {
+    display: flex;
+}
+
+.blog:hover .select {
+    display: flex;
+}
+
+header h1 {
+    font-size: 5rem;
+    color: white;
+    font-weight: 100;
+}
+
+header h1:nth-child(2) {
+    color: orange;
+}
+.max{
+    position: relative;
+}
+header{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+header img{
+    bottom: 0;
+    left: 70%;
+    transform: translatex(-30%);
+}
+
+.p{
+    height: 5px;
+    width: 300px;
+    border-radius: 50px;
+    background: white;
+    /* position: relative; */
+}
+.p p{
+    /* position: absolute; */
+    background: orange;
+    width: 90%;
+    height: 5px;
+}
+
+.wrap, .wrap1, .wrap2{
+    width: 300px;
+    flex-wrap: wrap;
+}
+.wrap2 .p p{
+    width: 70%;
+} 
+.wrap1 .p p{
+    width: 50%;
+} 
+
+.my-services{
+    background: #3b2930;
+    padding: 80px;
+}
+.my-services div div{
+    border: 1px solid orange;
+    padding: 10px;
+    margin-top: 50px;
+}
+.my-services div div h3{
+    color: orange;
+    font-weight: 200;
+}
+
+.my-works{
+    background: #311e25;
+    padding: 80px;
+}
+
+.say{
+    background: #3b2930;
+    padding: 80px;
+}
+.project{
+    background: url(../images/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 100px 10px 100px;
+}
+.project h1 span{
+    color: orange;
+}
+.project h1{
+    font-size: 3.5rem;
+}
+.hover1{
+    padding: 10px 40px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+@media all and (min-width:1336px){
+    .div{
+        width: 1336px;
+    }
+    .m-0{
+        background-color: #311e25;
+    }
+}
